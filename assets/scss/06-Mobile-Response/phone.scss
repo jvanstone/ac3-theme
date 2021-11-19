@@ -1,0 +1,29 @@
+/****
+
+    Moble Settings 
+
+******************/
+
+@media screen and (max-width:767px) {
+
+    #content.site-content {                                     
+        background-position: center right; 
+    } 
+
+    .hide-column {
+        display: none;
+    }
+
+    .hide-in-mobile { 
+        display: none;
+    }
+    
+
+    h1 {
+        font-size: calc(var(--h1-font-size) * .65)!important;
+    }
+     
+    .front-header {
+        padding: 1rem;
+    }
+ }

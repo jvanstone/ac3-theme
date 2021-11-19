@@ -1,0 +1,153 @@
+/*****
+
+   Variables
+ 
+**************/
+:root {
+
+    /* Colour Settings */
+    --primary-blue: #242b3fd2;;
+    --primary-green: #8CD50B;
+    --primary-red: #EFC2BA;
+    --primary-orange: #DB7106;
+    --primary-orange-opac: #dbad80;
+    --primary-yellow: #FFFFBA;
+    --primary-purple: #ccb4f8;
+    --primary-black: #242b3f;
+    --primary-white: #ffffff;
+
+    --primary-gray: rgb(219, 219, 219);
+    --dark-gray: rgb(33, 52, 56);
+    --primary-tranparent: rgba(255, 255, 255, 0);
+
+    
+    --primary-color: var(--primary-orange);
+    --secondary-color: var(--primary-light-blue);
+    --accent-color: var(--primary-white);
+
+
+    /* Font Settings */
+    --primary-font: 'Poppins', sans-serif;
+    --secondary-font: 'Montserrat', sans-serif;
+    --cursive-font: 'Montserrat', sans-serif;
+
+
+    /* Body  */
+    --body-background-color: rgb(236, 236, 236);
+    --body-article-color: var(--primary-white);
+    --body-border-radius: 0px 0px 0  0;
+    --entry-meta-color: var(--primary-orange);
+
+    /* Header Properties */ 
+    --top-header-background-color: var(--primary-blue);
+    --main-header-background-color: var(--primary-black);
+    --bot-header-background-color: var(--primary-orange);
+    --tranparent-header-backgournd: inherit;
+
+    --mobile-header-top-background: var(--primary-white);
+    --mobile-header-dropdown: var(--primary-white);
+
+    --toggle-color: var(--primary-orange);
+    --social-element-color: var(--primary-white);
+    --cart-fill-color: var(--primary-white);
+    --cart-border-color: var(--primary-white);
+    --search-color: var(--primary-white);
+
+    /** MAIN MENU **/
+    --main-menu-color: var(--primary-white);
+    --main-menu-background-color: inherit;
+    --main-menu-sub-menu-background-color: inherit;
+
+    --main-menu-hover: var(--primary-orange);
+    --main-menu-hover-background: inherit;
+
+    --main-menu-font: 'Roboto', sans-serif;
+    --main-menu-font-size: 1rem;
+    --main-menu-weight: 400;
+    --main-menu-text-align: center;
+
+    --main-menu-border-size: inherit;
+    --main-menu-border-style : inherit;
+    --main-menu-border-color: inherit;
+    --main-menu-text-transform: uppercase;
+    --main-menu-border-radius: inherit;
+
+    --main-menu-dropdown-back: var(--primary-black);
+    --sticky-header-color: var(--primary-white);
+    --sticky-header-color-active: var(--primary-orange);
+ 
+
+    /** Footer **/
+    --top-footer-color: var(--primary-black);
+    --main-footer-color: var(--primary-black);
+    --main-footer-border-size: 0rem;
+    --main-footer-border-color: var(--primary-white);
+    --below-footer-color: #000;
+ 
+
+    --primary-footer-font-color: var(--primary-white);
+    --footer-font-size: 1rem;
+
+    /** Links **/
+    --main-link-color: var(--primary-orange);
+    --main-link-hover: var(--primary-white);
+    --main-link-hover-decoration: underline;
+
+    --site-tile-color: var(--primary-black);
+    --site-tile-hover: inherit;
+
+    --footer-menu-hover-link: var(--primary-gray);
+
+    /** Headings **/
+    --heading-font: var(--primary-font);
+    --page-title-color: var(--primary-black);
+    
+    --h1-color: var(--primary-black) ;
+    --h1-font-family: var(--heading-font);
+    --h1-font-size: 2.8rem;
+    --h1-font-weight: 400;
+    --h1-line-height: 1.2;
+    --h1-text-transform: capitalize;
+
+    --h2-color: var(--primary-black);
+    --h2-font-family: var(--heading-font);
+    --h2-font-size: 2.8rem;
+    --h2-font-weight: 400;
+    --h2-line-height: 1.38;
+    --h2-text-transform: capitalize;
+
+    /** Button **/
+    --primary-button-background-color: var(--primary-black);
+    --primary-button-background-hover: var(--primary-black);
+    --primary-button-text-color: var(--primary-white);
+    --primary-button-text-transform: inherit;
+
+    --header-button-background-color: inherit;
+    --header-button-text-color: inherit;
+    --header-button-background-hover: inherit;
+    --header-button-text-hover: inherit;
+    --header-button-text-transform: uppercase;
+    --header-button-font-weight: 800;
+    --header-button-font-size: 1.25rem;
+
+
+    /** Icon Colors **/
+    --icon-color: var(--primary-orange);
+
+    /** Woo Commerce **/
+    --woo-add-cart-color: var(--primary-black);
+    --woo-price-color: var(--primary-blue);
+
+    /** Astra Global Colors **/
+    --ast-global-color-0: var(--primary-black);
+    --ast-global-color-1:var(--primary-purple);
+    --ast-global-color-2: var(--dark-gray);         /* Heading Color */
+    --ast-global-color-3: var(--dark-gray);      /* Paragraph Color */
+    --ast-global-color-4: #F5F5F5;
+    --ast-global-color-5: #FFFFFF;
+    --ast-global-color-6: #F2F5F7;
+    --ast-global-color-7: #424242;
+    --ast-global-color-8: #000000;
+}
+
+ body { font-size: 18px; }

@@ -1,0 +1,88 @@
+/****
+
+    CUSTOM ADDITIONS 
+
+*******************/
+
+.section { 
+    margin: 5% 10%;
+}
+
+.widget {
+    margin: 0 !important ;
+}
+
+.margin-top {
+    margin-top: 5rem;
+}
+.minus-margin-top {
+    margin-top: -5rem;
+
+}
+
+.no-margin-bottom {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.wp-block-columns, .wp-block-column {
+	margin: 0rem 0;
+}
+
+.top-border-radius {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+
+}
+
+.bottom-border-radius {
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    
+
+}
+.text-padding {
+    padding: 1rem;
+    -webkit-box-shadow: 9px 10px 15px -2px #000000; 
+    box-shadow: 9px 10px 15px -2px #000000;
+}
+.center-content {
+    text-align: center;
+    font-size: .95rem;
+}
+
+.fas, .far {
+    font-size: 6rem;
+    color: var(--icon-color);
+    margin: .5rem  auto;
+}
+
+.page-header, .page-header img{
+    background: var(--body-background-color);
+    border-radius: var(--body-border-radius);
+}
+
+
+
+.wp-block-group {
+    padding: 0rem 0;
+}
+
+.front-header {
+    margin-top: 2rem;
+    padding: 0 4rem;
+    text-transform: uppercase;
+
+}
+
+
+
+.ast-footer-copyright a, .footer-widget-area a {
+    color: var(--primary-white);
+}
+
+
+.title-orange {
+    color: var(--primary-orange);
+}
+

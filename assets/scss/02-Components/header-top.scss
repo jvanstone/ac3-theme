@@ -1,0 +1,60 @@
+/**  1st Header **/
+.ast-above-header.ast-above-header-bar {
+    background-color: var(--top-header-background-color);
+    border: 0;
+
+   
+    color: var(--primary-white);
+
+    p {
+        font-size: 1rem;
+    }
+
+    /** Members **/
+    a.ast-header-account-link  {
+        fill: var(--cart-fill-color);
+
+    }
+
+    /** Cart **/
+    .ast-site-header-cart  {
+    
+        .ast-cart-menu-wrap {
+            
+            .count {
+
+                
+                font-weight: 700;
+                position: relative;
+                display: inline-block;
+                vertical-align: middle;
+                text-align: center;
+                min-width: 1.5em;
+                min-height: 1.5em;
+                font-size: .86em;
+                line-height: 1.8;
+                border-radius: 0 0 .3em .3em;
+                border-width: 2px;
+                border-style: solid;
+                padding: 0 .4em;
+          
+                margin: 0;
+                border: 2px solid #ccc;
+                
+
+                color: var(--cart-fill-color)!important;
+
+                &:after {
+                    color: var(--cart-fill-color);
+                    border-color: var(--cart-fill-color);
+                }
+            }
+        }
+    }
+}
+
+.ast-above-header.ast-above-header-bar .ast-builder-grid-row {
+    padding-bottom: .0rem;
+    border-bottom:  0rem solid var(--primary-orange);
+  
+}

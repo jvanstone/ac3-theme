@@ -1,0 +1,63 @@
+
+/****
+
+  Header Builder 
+
+**************/
+
+.ast-theme-transparent-header #masthead {
+    background: var(--tranparent-header-backgournd);
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.ast-mobile-header-wrap .ast-above-header-bar, .ast-above-header-bar .site-above-header-wrap {
+     min-height: 1rem;
+}
+
+/** Social **/
+.ast-builder-social-element {
+    margin-left: 6px;
+    margin-right: 6px;
+    padding: 4px;
+
+    background: transparent;
+
+    border: 0px solid #000;
+    border-radius: 4px;
+
+    color: var(--social-element-color)!important;
+  
+    vertical-align: middle;
+    transition: all 0.01s;
+ 
+    justify-content: center;
+    align-items: center;
+
+    svg {
+        fill: var(--social-element-color);
+    }
+    
+}
+
+
+
+
+.ast-builder-layout-element .site-header-focus-item .ast-header-woo-cart, .ast-site-header-cart .ast-cart-menu-wrap { color: var(--cart-fill-color)!important;}
+/** Search **/
+.ast-header-search .astra-search-icon {
+    color: var(--search-color);
+}
+
+/** Site Branding **/
+.site-branding {
+    line-height: 1;
+    align-self: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+

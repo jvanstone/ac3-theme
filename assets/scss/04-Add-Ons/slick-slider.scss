@@ -1,0 +1,61 @@
+
+@media screen and (max-width: 463px) {
+    .wp-block-columns.has-background {
+         padding: 1.25em 0rem; 
+    }
+
+    .ast-container, .ast-container-fluid {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .wp-block-group .wp-block-group {
+        padding: 0;
+    }
+ 
+    .section {
+        margin: 5% 0%;
+        padding: 0 1rem;
+    }
+   
+    .footer-widget-area {
+        margin: 1rem 0;
+        padding: 1rem;
+        border-top: 1px solid var(--primary-white);
+    }
+
+}
+
+
+.mark {
+    margin: 0 -0.4em;
+    padding: 0.1em 0.4em;
+    border-radius: 0.8em 0.3em;
+    background: transparent;
+    background-image: linear-gradient(
+      to right,
+      rgba(255, 208, 0, 0.1),
+      rgba(255, 153, 0, 0.7) 4%,
+      rgba(255, 187, 0, 0.3)
+    );
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
+
+
+ 
+.mark-blue {
+    margin: 0 -0.4em;
+    padding: 0.1em 0.4em;
+    border-radius: 0.8em 0.3em;
+    background: transparent;
+    background-image: linear-gradient(
+      to right,
+      rgba(0, 81, 255, 0.1),
+      rgba(5, 6, 56, 0.7) 4%,
+      rgba(25, 0, 255, 0.3)
+    );
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  } 
